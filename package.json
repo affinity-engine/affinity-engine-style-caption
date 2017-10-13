@@ -1,7 +1,7 @@
 {
   "name": "affinity-engine-style-caption",
-  "version": "0.2.5",
-  "description": "A simple text caption box",
+  "version": "0.2.6",
+  "description": "A text caption box for the Affinity Engine",
   "keywords": [
     "ember-addon",
     "affinity-engine",

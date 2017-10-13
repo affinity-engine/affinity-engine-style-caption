@@ -1,0 +1,23 @@
+.ae-text.ae-caption {
+  border-radius: $ae-text-caption-border-radius;
+  text-align: $ae-text-caption-text-align;
+  line-height: $ae-text-caption-line-height;
+  font-size: $ae-text-caption-font-size;
+  padding: $ae-text-caption-padding-ends $ae-text-caption-padding-sides;
+  margin-top: $ae-text-caption-margin;
+  border-width: $ae-text-caption-border-width;
+
+  &.ae-caption-center {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lxl-body-bottom-pad {
+    height: 0;
+    min-height: 0;
+  }
+
+  .lxl-container .lxl-body .lxl-word, .lxl-container .lxl-body .lxl-letter {
+    opacity: 1;
+  }
+}
