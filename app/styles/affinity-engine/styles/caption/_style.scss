@@ -7,6 +7,14 @@
   margin-top: $ae-text-caption-margin;
   border-width: $ae-text-caption-border-width;
 
+  &.ae-caption-left {
+    left: $ae-text-caption-left-margin;
+  }
+
+  &.ae-caption-right {
+    right: $ae-text-caption-right-margin;
+  }
+
   &.ae-caption-center {
     left: 50%;
     transform: translateX(-50%);
